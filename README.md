@@ -39,4 +39,4 @@ VALUES(\
 );\
 UPDATE students\
 SET student_grades_id = (SELECT grades_id FROM grades WHERE grades_id = 24 )\
-WHERE student_id = 24;\
+WHERE student_id = 24;
